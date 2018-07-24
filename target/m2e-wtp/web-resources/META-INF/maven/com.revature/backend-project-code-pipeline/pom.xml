@@ -5,6 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>backend-project-code-pipeline</name>
-  <description>Project for our code pipeline
-</description>
+  <description>Project for our code pipeline</description>
+  <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+  </dependencies>
 </project>
